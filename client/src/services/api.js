@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://notepad-backend-production-c33e.up.railway.app/';
+const API_URL = 'https://notepad-backend-production-c33e.up.railway.app/api';
 
 const api = axios.create({
   baseURL: API_URL,
